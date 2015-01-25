@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>Тест информатиков</title>
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+</head>
+<body class="impress-not-supported">
+    <div class="fallback-message">
+        <p>Ваш браузер не поддерживает функции, необходимые для наилучшего отображения этого теста.</p>
+        <p>Для лучших впечатлений используйте последние версии браузеров <b>Chrome</b>, <b>Safari</b> или <b>Firefox</b>.</p>
+    </div>
+    <div class="logo">
+        <img src="img/bsuir_logo.png" alt="БГУИР" width="40">
+        <h1>Тест Информатиков</h1>
+        <span>используйте клавиатуру для навигации</span>
+        <div style="clear:both;"></div>
+    </div>
+    <div id="impress">
+        <div id="bored" class="step slide" data-x="-1000" data-y="0"  data-z="-1000" data-rotate="90" data-scale="2">
+            <img src="img/to_bsuir.jpg" width="400">
+            <q>Кем я могу стать в мире информационных технологий?</q>
+            <a href="#" class="btn btn-big next">Пройти тест →</a>
+        </div>
+        <div id="testcontainer">
+            <form name="testqsts" onsubmit="return checkForm();">
+                <div class="step slide" data-x="1000" data-y="-1500" data-z="0">
+                    <q>Чего бы Вы хотели достичь в будущем больше всего?</q>
+                    <label><input name="qst1" value="1,0,0,0,0,0" type="radio"> Возглавить компанию — лидера компьютерной отрасли</label>
+                    <label><input name="qst1" value="0,1,0,0,0,0" type="radio"> Создать революционную технологию, которая изменит весь мир</label>
+                    <label><input name="qst1" value="0,0,1,0,0,0" type="radio"> Создать полезную программу, на которой можно хорошо заработать</label>
+                    <label><input name="qst1" value="0,0,0,1,0,0" type="radio"> Открыть что-то новое, что вошло бы в науку под моим именем</label>
+                    <label><input name="qst1" value="0,0,0,0,1,0" type="radio"> Стать профессиональным программистом, участвовать в больших и интересных проектах</label>
+                    <label><input name="qst1" value="0,0,0,0,0,1" type="radio"> Найти новое применение цифровым технологиям, создать на основе этого успешную компанию</label>
+                    <a href="#" class="btn prev">← Назад</a> <a href="#" class="btn next">Далее →</a>
+                </div>
+                <div class="step slide" data-x="1000" data-y="-500" data-z="500">
+                    <q>Вам предложили взять на себя организацию выпускного вечера Вашего класса. Вы:</q>
+                    <label><input name="qst2" value="0,0,0,1,0,0" type="radio"> С ужасом откажетесь</label>
+                    <label><input name="qst2" value="0,0,1,0,0,0" type="radio"> Согласитесь, если Ваша работа будет хорошо вознаграждена</label>
+                    <label><input name="qst2" value="0,1,0,0,0,0" type="radio"> Согласитесь не раздумывая: "Здорово! Это будет лучший выпускной вечер!"</label>
+                    <label><input name="qst2" value="1,0,0,0,1,0" type="radio"> Решите: "Зачем мне это надо?"</label>
+                    <label><input name="qst2" value="0,0,0,0,0,1" type="radio"> Подумаете: "Интересное предложение. Я смогу многому научиться"</label>
+                    <a href="#" class="btn prev">← Назад</a> <a href="#" class="btn next">Далее →</a>
+                </div>
+                <div class="step slide" data-x="1000" data-y="500" data-z="1000">
+                    <q>Оставили бы Вы университет ради перспективы начать свое дело в компьютерной индустрии?</q>
+
+                    <label><input name="qst3" value="1,1,1,0,0,1" type="radio"> Да</label>
+                    <label><input name="qst3" value="0,0,0,1,1,0" type="radio"> Нет</label>
+                    <a href="#" class="btn prev">← Назад</a> <a href="#" class="btn next">Далее →</a>
+                </div>
+                <div class="step slide" data-x="1000" data-y="1500" data-z="1500">
+                    <q>На вечеринке друзей я обычно:</q>
+
+                    <label><input name="qst4" value="1,0,0,0,0,0" type="radio"> Занимаюсь своими делами</label>
+                    <label><input name="qst4" value="0,0,0,1,0,0" type="radio"> Стою в стороне и наблюдаю за другими</label>
+                    <label><input name="qst4" value="0,1,0,0,0,0" type="radio"> Нахожусь в центре внимания, задаю тон вечеринке</label>
+                    <label><input name="qst4" value="0,0,0,0,0,1" type="radio"> Пользуясь моментом решаю свои вопросы</label>
+                    <label><input name="qst4" value="0,0,1,0,0,0" type="radio"> Совмещаю приятное с полезным: общаюсь с друзьями и нахожу пользу для себя</label>
+                    <label><input name="qst4" value="0,0,0,0,1,0" type="radio"> Общаюсь только с теми людьми, которые что-то понимают в компьютерах</label>
+                    <a href="#" class="btn prev">← Назад</a> <a href="#" class="btn next">Далее →</a>
+                </div>
+                <div class="step slide" data-x="1000" data-y="2500" data-z="2000">
+                    <q>Друг в очередной раз забыл вернуть Вам долг. Вы:</q>
+
+                    <label><input name="qst5" value="0,0,0,1,0,0" type="radio"> Будете мучаться, но не скажете ему об этом</label>
+                    <label><input name="qst5" value="0,0,0,0,1,0" type="radio"> Захотите серьезно поговорить с ним об этом, но забудете</label>
+                    <label><input name="qst5" value="0,0,1,0,0,0" type="radio"> Я не даю в долг</label>
+                    <label><input name="qst5" value="0,1,0,0,0,0" type="radio"> Устроите другу скандал, не стесняясь в выражении эмоций</label>
+                    <label><input name="qst5" value="1,0,0,0,0,0" type="radio"> Спокойно, по-деловому поговорите с другом и добьетесь своего</label>
+                    <label><input name="qst5" value="0,0,0,0,0,1" type="radio"> Начнете считать проценты</label>
+                    <a href="#" class="btn prev">← Назад</a> <a href="#" class="btn next">Далее →</a>
+                </div>
+                <div class="step slide" data-x="1000" data-y="3500" data-z="2500">
+                    <q>Вы открываете свежий номер журнала по информационным технологиям. Какой раздел для Вас наиболее интересен?</q>
+
+                    <label><input name="qst6" value="1,0,0,0,0,1" type="radio"> Новости IT-компаний (поглощения, появление новых компаний, курс акций)</label>
+                    <label><input name="qst6" value="0,1,1,0,0,0" type="radio"> Новинки software и hardware</label>
+                    <label><input name="qst6" value="0,0,0,0,1,0" type="radio"> Подробное описание какой-либо технологии программирования</label>
+                    <label><input name="qst6" value="0,0,0,1,0,0" type="radio"> Анализ математических алгоритмов, применяющихся в программных средствах</label>
+                    <a href="#" class="btn prev">← Назад</a> <input type="submit" value="Результаты" class="btn" style="font-size: 1em;">
+                </div>
+            </form>
+        </div>
+        <div id="result" class="slide step result" data-x="-1500" data-y="1800" data-z="8000" scale="10">
+
+        </div>
+        <div id="overview" class="step" data-x="-1000" data-y="1500" data-scale="10">
+        </div>
+    </div>
+    <script src="impress.js"></script>
+    <script>
+        var api = impress();
+        api.init();
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
